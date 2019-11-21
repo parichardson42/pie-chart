@@ -18,18 +18,18 @@
 
         // Create the data table.
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Topping');
+        data.addColumn('string', 'Ethnicity');
         data.addColumn('number', 'Slices');
         data.addRows([
-          ['Mushrooms', 3],
-          ['Onions', 1],
-          ['Olives', 1],
-          ['Zucchini', 1],
-          ['Pepperoni', 2]
+          ['Caucasian', 3],
+          ['Other', 1],
+          ['Latino', 1],
+          ['Asian', 1],
+          ['African', 2]
         ]);
 
         // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
+        var options = {'title':'Trial Demographics',
                        'width':400,
                        'height':300};
 
